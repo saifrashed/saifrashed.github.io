@@ -1,6 +1,6 @@
 ---
-title: Welcome to RiSE MSR Blog
-description: Welcome to the RiSE MSR blog!
+title: Welcome to my blog
+description: Welcome to my blog
 ---
 
 Welcome to the RiSE MSR blog!
@@ -14,3 +14,5 @@ high-performance computing, programming languages, and software engineering.
 This blog is a place for us to share our research, thoughts, and ideas with the
 broader community, in a more informal format than our research papers and
 official communications.
+
+

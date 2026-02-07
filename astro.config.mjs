@@ -1,44 +1,17 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import { createRequire } from 'module';
-import fs from 'fs';
-
-const require = createRequire(import.meta.url);
-
-// Load custom language grammars
-const fstarGrammar = JSON.parse(
-	fs.readFileSync(new URL('./src/grammars/fstar.tmLanguage.json', import.meta.url), 'utf-8')
-);
-const pulseGrammar = JSON.parse(
-	fs.readFileSync(new URL('./src/grammars/pulse.tmLanguage.json', import.meta.url), 'utf-8')
-);
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://saifrashed.github.io',
-	markdown: {
-		shikiConfig: {
-			langs: [
-				{
-					...fstarGrammar,
-					name: 'fstar',
-					aliases: ['fst', 'fsti', 'f*'],
-				},
-				{
-					...pulseGrammar,
-					name: 'pulse',
-					aliases: [],
-				},
-			],
-		},
-	},
+
 	integrations: [
 		starlight({
-			title: 'RiSE MSR',
-			description: 'News from the RiSE MSR team! This blog covers research, new developments, technical discussions, and the work of the RiSE MSR group.',
+			title: 'Saif Rashed',
+			description: 'Saif Rashed (24) is a programmer. In 2020 he began his bachelor program at the Amsterdam University of Applied Sciences in the field of Software Engineering. During this time he had placements at notable companies such as CERN, AMS-IX, and the Rabobank. After graduating cum laude, he then started his master’s program at the University of Amsterdam where he researched the use of artificial intelligence to improve the software engineering process.',
 			social: {
-				github: 'https://github.com/risemsr',
+				github: 'https://github.com/saifrashed',
 			},
 			sidebar: [
 				{

@@ -1,8 +1,4 @@
-# RiSE MSR Blog
-
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
-
-News from the RiSE MSR team! This blog covers research, new developments, technical discussions, and the work of the RiSE MSR group.
+# Blog
 
 ## 🚀 Project Structure
 
@@ -32,6 +28,3 @@ Blog posts are `.md` or `.mdx` files in `src/content/docs/blog/`. Each file is e
 | `npm run build`   | Build your production site to `./dist/`     |
 | `npm run preview` | Preview your build locally                  |
 
-## 👀 Want to learn more?
-
-Check out [Starlight's docs](https://starlight.astro.build/) or [Astro documentation](https://docs.astro.build).
