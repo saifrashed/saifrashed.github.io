@@ -2,6 +2,10 @@
 title: DupliScanPro
 ---
 
+<figure style="margin: 2rem 0; text-align: center;">
+  <img src="/assets/dupliscanpro/cover.jpg" alt="University of Amsterdam Science park" style="max-width: 100%; height: auto; border-radius: 8px;" />
+</figure>
+
 [Repository](https://github.com/saifrashed/software-evolution)
 
 During my master at the University of Amsterdam, I looked into the issue of **code duplication**, a phenomenon that quietly hampers software maintainability. As part of the *Software Evolution* course, I developed **DupliScanPro**, a tool to detect code clones. The *Software Evolution* course looks at change in codebases across time, and how we as engineers can help them stay healthy over years and even decades. Clone detection stood out as a core aspect, because redundant code compounds technical debt and makes future changes increasingly problematic.

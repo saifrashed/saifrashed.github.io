@@ -2,6 +2,9 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+
+const googleAnalyticsId = 'G-RPEB73M72F'
+
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://www.saifrashed.com',
@@ -21,6 +24,25 @@ export default defineConfig({
 				{
 					label: 'Photography',
 					autogenerate: { directory: 'photography' },
+				},
+			],
+			head: [
+				// Adding google analytics
+				{
+					tag: 'script',
+					attrs: {
+						src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`,
+					},
+				},
+				{
+					tag: 'script',
+					content: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '${googleAnalyticsId}');
+          `,
 				},
 			],
 		}),

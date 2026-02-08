@@ -3,14 +3,15 @@ title: Refacturbo
 description: Researching how Large Language Models can automatically refactor code for energy efficiency.
 ---
 
-<a href="https://github.com/saifrashed/refacturbo" target="_blank">Repository</a> | <a href="/assets/refacturbo/thesis.pdf" target="_blank">Thesis</a>
 
 <figure style="margin: 2rem 0; text-align: center;">
   <img src="/assets/refacturbo/cover.jpg" alt="University of Amsterdam Science park" style="max-width: 100%; height: auto; border-radius: 8px;" />
 </figure>
 
 
-For my thesis I researched large language models (LLMs) and how they can be used to automatically refactor green anti-patterns in code for improved energy efficiency. By integrating a static analysis engine that identifies problematic code segments and generates targeted prompts for it, it can automate a significant part of the refactoring process.
+<a href="https://github.com/saifrashed/refacturbo" target="_blank">Repository</a> | <a href="/assets/refacturbo/thesis.pdf" target="_blank">Thesis</a>
+
+Large Language Models (LLMs) can be used to automatically refactor green anti-patterns in code for improved energy efficiency. By integrating a static analysis engine that identifies problematic code segments and generates targeted prompts for it, automating a significant part of the refactoring process.
 
 ## Implementation
 
