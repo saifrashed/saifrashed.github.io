@@ -1,4 +1,0 @@
----
-title: Slovenia
-description: Trip
----

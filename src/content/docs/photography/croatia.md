@@ -1,4 +1,0 @@
----
-title: Croatia
-description: Trip
----

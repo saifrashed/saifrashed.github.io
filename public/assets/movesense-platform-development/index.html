@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N222GS69');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movesense platform development</title>
+</head>
+
+<body>
+  <main style="max-width: 500px; margin: auto; padding: 20px">
+    <a href="../../projects.html">Back to home</a>
+
+    <h1>Movesense platform development</h1>
+
+    <img src="./screens.png" width="100%" />
+
+
+    <a href="https://apps.apple.com/nl/app/delta-for-athlete-metrics/id6503063210" target="_blank">View in App store</a>
+    <a href="https://play.google.com/store/apps/details?id=deltasportinnovation.delta.app&hl=nl" target="_blank">View in
+      Play store</a>
+
+    <a href="mailto:info@oufaska.com" target="_blank">Send email</a>
+    <a target="_blank" href="../../bio.html">Bio</a>
+    <section>
+      <p>
+
+        Delta Sport Innovation
+        approached me to design, implement, test, and release their Movesense-based mobile athlete
+        activity tracking system. The system is built from scratch and comprises a Flutter app and Movesense firmware
+        extension.
+      </p>
+
+      <h2>App</h2>
+      <p>
+        Due to budget restriction, speed-to-market, and an active developer community, I opted for Flutter, in
+        order to build iOS and Android apps from a single codebase. I built the list of requirements in a
+        series of brainstorm sessions with the client. The project was managed using an agile approach with two-week
+        sprints. Using Flutter's widgets, I constructed the UI
+        screens iteratively. Movesense offers a plugin for Flutter, allowing the app to connect to the sensor over
+        Bluetooth.
+        During development, I discovered many challenges with this sensor, which, although well-documented by Movesense,
+        are not fully disclosed.
+      </p>
+
+      <h2>Firmware</h2>
+      <p>
+        The Movesense documentation contains a diagram showing how the firmware, located on the sensor itself, and the
+        client interact. The design of any application on the Movesense platform must take these components, as well as
+        Bluetooth transmission, into account.
+      </p>
+
+      <figure>
+        <img src="./architecture.png" width="100%" />
+        <figcaption style="text-align: center;"><b>Figure 1:</b> The left-hand side shows the firmware.</figcaption>
+      </figure>
+
+      <p>
+        The platform allows the underlying base firmware to be updated while maintaining support for the custom-built
+        software.
+        This is possible due to the Whiteboard library that exposes REST-like services. The Movesense team also made a
+        variety of sample apps showcasing the capabilities of the sensor.
+      </p>
+
+
+      <h2>Sources</h2>
+      <ol>
+        <li><a href="https://www.movesense.com/">Movesense</a></li>
+        <li><a href="https://bitbucket.org/movesense/workspace/projects/MOVC">Movesense Community Repository</a></li>
+        <li><a href="https://pub.dev/packages/mdsflutter">Movesense Flutter plugin</a></li>
+        <li><a href="https://www.movesense.com/docs/esw/getting_started/">Firmware development docs</a></li>
+        <li><a href="https://bitbucket.org/movesense/movesense-device-lib/src/master/samples">Sample firmware</a></li>
+      </ol>
+    </section>
+  </main>
+</body>
+
+</html>
