@@ -28,3 +28,11 @@ Blog posts are `.md` or `.mdx` files in `src/content/docs/blog/`. Each file is e
 | `npm run build`   | Build your production site to `./dist/`     |
 | `npm run preview` | Preview your build locally                  |
 
+
+
+
+20231013-playerworkload-capture-analysis.md
+
+
+
+After some transformations, I perform name binding, which passes by all varlet and var nodes, and searches the name in the symbol table with ```NBlookup```. We search by climbing up the parents until there is no parent left.

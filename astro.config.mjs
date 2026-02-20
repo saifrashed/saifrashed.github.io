@@ -22,6 +22,10 @@ export default defineConfig({
 					autogenerate: { directory: 'blog' },
 				},
 				{
+					label: 'Projects',
+					autogenerate: { directory: 'projects' },
+				},
+				{
 					label: 'Photography',
 					autogenerate: { directory: 'photography' },
 				},

@@ -6,9 +6,9 @@ title: DupliScanPro
   <img src="/assets/dupliscanpro/cover.jpg" alt="University of Amsterdam Science park" style="max-width: 100%; height: auto; border-radius: 8px;" />
 </figure>
 
-[Repository](https://github.com/saifrashed/software-evolution)
+[Repository](https://github.com/saifrashed/dupliscanpro/tree/master/series2)
 
-During my master at the University of Amsterdam, I looked into the issue of **code duplication**, a phenomenon that quietly hampers software maintainability. As part of the *Software Evolution* course, I developed **DupliScanPro**, a tool to detect code clones. The *Software Evolution* course looks at change in codebases across time, and how we as engineers can help them stay healthy over years and even decades. Clone detection stood out as a core aspect, because redundant code compounds technical debt and makes future changes increasingly problematic.
+Do we think enough about the issue of **code duplication**, a phenomenon that quietly hampers software maintainability? As part of the Software Evolution course, I developed **DupliScanPro**, a tool to detect code clones. The *Software Evolution* course looks at change in codebases across time, and how we as engineers can help them stay healthy over years and even decades. Clone detection stood out as a core aspect, because redundant code compounds technical debt and makes future changes increasingly problematic.
 
 Spotting an exact copy-paste is one thing, but what about code that’s nearly the same except for a name change or swapped literal? The goal with DupliScanPro was to find both **Type I clones** (exact matches) and **Type II clones** (structurally similar but with superficial changes in identifiers or literals). The analysis of the programming language is done algoritmically, using the [Rascal](https://www.rascal-mpl.org/) meta programming language. The detection was built around the Abstract Syntax Tree (AST) data structure. This data structure represents the code at an higher level of abstraction, and therefore easier to work with, relieving us from memory expensive string operations. Two algorithms have been implemented:
 
