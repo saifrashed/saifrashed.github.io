@@ -1,0 +1,65 @@
+flowchart LR
+    %% Nodes
+    WI[("GitHub Issue<br/>(Requirement Context)")]
+    
+    subgraph Local_Dev ["Developer Machine"]
+        BR["Feature Branch"]
+        CM["Commits & Pushes"]
+    end
+    
+    subgraph GH_Actions ["GitHub Actions (Runner)"]
+        TR["Trigger: PR Opened/Sync"]
+        ENV[("Secrets<br/>(OPENAI_API_KEY,<br/>GITHUB_TOKEN)")]
+        
+        subgraph Action_Steps ["Context Aggregation"]
+            PY[("Python Script<br/>(gh CLI + git)")]
+            MD[/"Markdown<br/>Template"/]
+        end
+    end
+    
+    LLM(("OpenAI API<br/>(GPT)"))
+    
+    PR["📝 Pull Request<br/>(Title & Body)"]
+    
+    subgraph Review_Cycle ["Completion"]
+        REV["👨‍💻 Human Review"]
+        MRG["🔀 Merge PR"]
+    end
+
+    %% Flow - Developer Actions
+    WI -.->|"1. Dev Reads"| BR
+    BR --> CM -->|"2. Push"| PR
+    PR -->|"3. Trigger"| TR
+    
+    %% Flow - Context Aggregation inside Runner
+    TR --> PY
+    ENV -.->|"Inject Env Vars"| PY
+    MD -.->|"Read Template"| PY
+    
+    %% CRITICAL: The Link Logic
+    PY -.->|"4a. Fetch Issue Details"| WI
+    
+    %% Technical Context
+    CM -.->|"4b. git log"| PY
+    BR -.->|"4c. git diff"| PY
+    
+    %% Flow - AI Generation
+    PY ==>|"5. Context + Prompt"| LLM
+    LLM ==>|"6. Generated Description"| PY
+    
+    %% Flow - Final Update
+    PY -->|"7. gh pr edit"| PR
+    
+    %% Flow - Completion
+    PR -.->|"8. Notify"| REV
+    REV -->|"9. Approve"| MRG
+    MRG -.->|"10. Close"| WI
+
+    %% Styles
+    style LLM fill:#ff9f43,stroke:#333,stroke-width:2px,color:white
+    style PR fill:#2ecc71,stroke:#333,stroke-width:2px,color:white
+    style MD fill:#fab1a0,stroke:#333,stroke-dasharray: 5 5
+    style PY fill:#74b9ff,stroke:#333,color:black
+    style GH_Actions fill:#f5f6fa,stroke:#dcdde1,color:black
+    style ENV fill:#a29bfe,stroke:#333,color:white
+    style Review_Cycle fill:#dfe6e9,stroke:#b2bec3,stroke-dasharray: 5 5

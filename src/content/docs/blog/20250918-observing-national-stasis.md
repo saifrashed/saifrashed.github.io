@@ -1,5 +1,5 @@
 ---
-title: Observing national stasis
+title: Observing National Stasis
 description: Excessive regulation can lead to bureaucratic paralysis.
 ---
 

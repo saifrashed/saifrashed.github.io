@@ -1,5 +1,5 @@
 ---
-title: More compute, more intelligence
+title: More Compute, More Intelligence
 description: The AI race between companies is in full swing.
 ---
 
@@ -10,3 +10,7 @@ The AI race between companies is in full swing. XAI is [planning to buy millions
 Companies believe they can improve intelligence by throwing more computing power at it. This is due to [scaling laws](https://arxiv.org/pdf/2001.08361), where larger model size, dataset and more compute predictably leads to improved performance. However, [Moore’s Law](https://download.intel.com/newsroom/2023/manufacturing/moores-law-electronics.pdf), the observation that posits that computing power doubles every two years, appears to have [ended since 2016](https://cap.csail.mit.edu/death-moores-law-what-it-means-and-what-might-fill-gap-going-forward). The growth slowdown is largely caused by physical constraints such as [quantum tunneling](https://en.wikipedia.org/wiki/Quantum_tunnelling). Even ASML states that [transistor shrink is slowing](https://www.asml.com/en/technology/all-about-microchips/moores-law). [Nvidia's CEO shared this sentiment in 2019](https://www.economist.com/science-and-technology/2023/12/13/jensen-huang-says-moores-law-is-dead-not-quite-yet), saying Moore’s Law is "dead", though in 2025 he [claimed AI chips are improving faster than Moore’s Law](https://techcrunch.com/2025/01/07/nvidia-ceo-says-his-ai-chips-are-improving-faster-than-moores-law/). One major implication is that we will not achieve higher intelligence by simply increasing compute. [ASML VP of technology Jos Benschop warns](https://www.cnbc.com/2025/05/22/exclusive-look-at-high-na-asmls-new-400-million-chipmaking-colossus.html) "If we do not improve the power efficiency of our AI chips over time, the training of the models could consume the entire worldwide energy and that could happen around 2035.". 
 
 So while scaling laws show predictable model performance improvements the physical limitations of sheer energy use needed to develop these models might be unsustainable.
+
+
+
+
