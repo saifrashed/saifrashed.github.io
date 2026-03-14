@@ -5,7 +5,7 @@ description: Shoes filled with mud, eyes covered with sand, painful knee ligamen
 
 30 September, 2025
 
-Shoes filled with mud, eyes covered with sand, injured knee ligaments, breathlessness, intense calf cramps, what if I told you that this is considered a form of recreation? Let's say that someone offers you this delightful experience; surely you would decline, right? Well, two friends of mine; Soufian and Eric, and eventually myself, decided to do the 16 km Mudmasters obstacle run.
+Shoes filled with mud, eyes covered with sand, injured knee ligaments, breathlessness, intense calf cramps, what if I told you that this is considered a form of recreation? Let's say that someone offers you this delightful experience; surely you would decline, right? Well, together with two friends; Soufian and Eric, we decided to do the 16 km Mudmasters obstacle run.
 
 Brainstorming fun activities often results in a muscle memory choice like bowling or going to the cinema. However, when Eric and I were discussing to do something new, something we haven't done before, he came up with a genius idea. Why not join the 2025 Mud Masters edition in Biddinghuizen. With slight hesitation, I agreed to join and we ordered the tickets. Well supposedly, but we all delayed the purchase until the last moment, due to the high likelihood of the plan falling through. However, finally, we were all in, and on September 27, 2025, we were on our way.
 
