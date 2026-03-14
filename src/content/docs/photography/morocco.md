@@ -4,6 +4,7 @@ title: Morocco
 
 
 <div class="masonry-gallery">
+  <img src="/photography/morocco/morocco-15.png" alt="" loading="lazy" />
   <img src="/photography/morocco/morocco-1.png" alt="" loading="lazy" />
   <img src="/photography/morocco/morocco-2.png" alt="" loading="lazy" />
   <img src="/photography/morocco/morocco-3.png" alt="" loading="lazy" />
@@ -16,6 +17,7 @@ title: Morocco
   <img src="/photography/morocco/morocco-10.png" alt="" loading="lazy" />
   <img src="/photography/morocco/morocco-11.png" alt="" loading="lazy" />
   <img src="/photography/morocco/morocco-12.png" alt="" loading="lazy" />
+  <img src="/photography/morocco/morocco-16.png" alt="" loading="lazy" />
   <img src="/photography/morocco/morocco-13.png" alt="" loading="lazy" />
   <img src="/photography/morocco/morocco-14.png" alt="" loading="lazy" />
 </div>
