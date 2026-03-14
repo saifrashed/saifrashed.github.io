@@ -2,7 +2,6 @@
 title: Morocco
 ---
 
-
 <div class="masonry-gallery">
   <img src="/photography/morocco/morocco-15.png" alt="" loading="lazy" />
   <img src="/photography/morocco/morocco-1.png" alt="" loading="lazy" />
