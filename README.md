@@ -28,6 +28,3 @@ Blog posts are `.md` or `.mdx` files in `src/content/docs/blog/`. Each file is e
 | `npm run build`   | Build your production site to `./dist/`     |
 | `npm run preview` | Preview your build locally                  |
 
-
-
-

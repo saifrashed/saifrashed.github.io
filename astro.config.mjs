@@ -12,7 +12,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Saif Rashed',
-			description: 'Saif Rashed (24) is a programmer. In 2020 he began his bachelor program at the Amsterdam University of Applied Sciences in the field of Software Engineering. During this time he had placements at notable companies such as CERN, AMS-IX, and the Rabobank. After graduating cum laude, he then started his master’s program at the University of Amsterdam where he researched the use of artificial intelligence to improve the software engineering process.',
+			description: 'Saif Rashed (25) is a programmer. In 2020 he began his bachelor program at the Amsterdam University of Applied Sciences in the field of Software Engineering. During this time he had placements at notable companies such as CERN, AMS-IX, and the Rabobank. After graduating cum laude, he then started his master’s program at the University of Amsterdam where he researched the use of artificial intelligence to improve the software engineering process.',
+			favicon: '/favicon.ico',
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/saifrashed' },
 				{ icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/saif-rashed/' },
