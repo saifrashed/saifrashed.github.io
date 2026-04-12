@@ -5,7 +5,7 @@ title: Turkey
 <div class="masonry-gallery">
   <img src="/photography/turkey/turkey-1.jpeg" alt="" loading="lazy" />
   <img src="/photography/turkey/turkey-2.jpeg" alt="" loading="lazy" />
-  <img src="/photography/turkey/turkey-3.jpeg" alt="" loading="lazy" />
+  <!-- <img src="/photography/turkey/turkey-3.jpeg" alt="" loading="lazy" /> -->
   <img src="/photography/turkey/turkey-4.jpeg" alt="" loading="lazy" />
   <img src="/photography/turkey/turkey-5.jpeg" alt="" loading="lazy" />
   <img src="/photography/turkey/turkey-6.jpeg" alt="" loading="lazy" />

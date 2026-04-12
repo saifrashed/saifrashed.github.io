@@ -8,7 +8,7 @@ title: Saudi Arabia
   <img src="/photography/saudi/saudi-13.jpeg" alt="" loading="lazy" />
   <img src="/photography/saudi/saudi-1.jpeg" alt="" loading="lazy" />
   <img src="/photography/saudi/saudi-2.jpeg" alt="" loading="lazy" />
-  <img src="/photography/saudi/saudi-3.jpeg" alt="" loading="lazy" />
+  <!-- <img src="/photography/saudi/saudi-3.jpeg" alt="" loading="lazy" /> -->
   <img src="/photography/saudi/saudi-4.jpeg" alt="" loading="lazy" />
   <img src="/photography/saudi/saudi-5.jpeg" alt="" loading="lazy" />
   <img src="/photography/saudi/saudi-6.jpeg" alt="" loading="lazy" />
