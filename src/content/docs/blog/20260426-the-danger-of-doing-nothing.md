@@ -8,7 +8,7 @@ description: test
 <figure style="margin: 2rem 0; text-align: center;">
   <img src="/assets/the-danger-of-doing-nothing/cover.jpg" alt="Cover images" style="max-width: 100%; height: auto; border-radius: 8px;" />
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #666; font-style: italic;">
-      The <a href="https://en.wikipedia.org/wiki/The_Tower_of_Babel_%28Bruegel%29">Tower of Babel</a> is a story about a group of people attempting to build a tower to heaven, a project that collapses when they lose the ability to speak and understand the same language.
+     The story of the <a href="https://en.wikipedia.org/wiki/Tower_of_Babel">Tower of Babel</a> describes a group of people attempting to build a tower to heaven, a project that collapses when they lose the ability to speak and understand the same language.
     </figcaption>
 </figure>
 
