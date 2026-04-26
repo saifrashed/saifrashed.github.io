@@ -3,7 +3,7 @@ title: The Danger of Doing Nothing
 description: test
 ---
 
-11 April, 2026
+27 April, 2026
 
 <figure style="margin: 2rem 0; text-align: center;">
   <img src="/assets/the-danger-of-doing-nothing/cover.jpg" alt="Cover images" style="max-width: 100%; height: auto; border-radius: 8px;" />
