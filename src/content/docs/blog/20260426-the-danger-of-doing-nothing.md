@@ -12,7 +12,7 @@ description: test
     </figcaption>
 </figure>
 
-Imagine handing off approved technical documents to an autonomous system that asks a few clarifying questions, sets up the environment, and gets to work. As it accesses the terminal, creates files, fetches remote assets, and writes lines of code, you simply sit back and wait for the agent to set the backlog item to 'implemented' then 'tested' and finally 'deployed', feels like a utopia, right? 
+Imagine handing off approved technical documents to an autonomous system that asks a few clarifying questions, sets up the environment, and gets to work. As it accesses the terminal, creates files, fetches remote assets, and writes lines of code, you simply sit back and wait for the agent to set the backlog item to 'implemented' then 'tested' and finally 'deployed'.
 
 This vision has prompted the industry to [push for Agentic AI](https://www.mckinsey.com/featured-insights/week-in-charts/agentic-ai-advances), the use of systems that act autonomously without human intervention. A [paper](https://arxiv.org/pdf/2508.17343) by A. Roychoudhury describes the potential of this technology. Unlike traditional LLMs, these agents are designed to go far beyond code generation, and as software engineering becomes heavily automated, the industry must pivot from simply generating code to using AI agents that can deeply analyze code structure, infer human intent, and verify that software is secure.
 
