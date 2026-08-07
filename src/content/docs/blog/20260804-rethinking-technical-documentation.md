@@ -1,12 +1,12 @@
 ---
-title: Treat Your Documentation Like Code 
+title: Rethinking Technical Documentation
 description: For decades, software documentation was written in isolated tools like Microsoft Word, Google Docs, or WYSIWYG wikis like Confluence. This created a massive disconnect between the code and the documentation. For technical documentation we ought to rethink how we store, version and update our docs.
 ---
 
 4 August, 2026
 
 <figure style="margin: 2rem 0; text-align: center;">
-  <img src="/assets/best-practices-effective-pull-requests/cover.png" alt="Cover images" style="max-width: 100%; height: auto; border-radius: 8px;" />
+  <img src="/assets/rethinking-technical-documentation/cover.jpg" alt="Cover images" style="max-width: 100%; height: auto; border-radius: 8px;" />
 </figure>
 
 Attention is one of a developer’s most valuable resources. Focus drives progress, and every interruption comes at a cost.
@@ -30,7 +30,7 @@ Developers can update code and documentation in the same commit without leaving 
 
 Spotify has used a similar approach for years. Engineers write documentation in Markdown alongside their code, generate documentation sites with MkDocs during CI, and make them available centrally through Backstage. Product manager Gary Nieman explains the workflow in [this presentation](https://youtube.com/watch?v=uFGCaZmA6d4).
 
-There are trade-offs
+There are trade-offs.
 
 Docs-as-code is not perfect. Markdown may feel less intuitive than a visual editor, and Git-based workflows can be a barrier for non-technical contributors.
 
