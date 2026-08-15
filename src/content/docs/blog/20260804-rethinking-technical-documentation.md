@@ -9,7 +9,7 @@ description: For decades, software documentation was written in isolated tools l
   <img src="/assets/rethinking-technical-documentation/cover.jpg" alt="Cover images" style="max-width: 100%; height: auto; border-radius: 8px;" />
 </figure>
 
-Attention is one of a developer’s most valuable resources. Focussed attention makes the gears spin, and every interruption comes at a cost.
+Attention is one of a developer’s most valuable resources. Focused attention keeps the gears turning, and every interruption comes at a cost.
 
 Researcher Sophie Leroy calls this cost **“attention residue.”** In her 2009 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0749597809000399), *Why Is It So Hard to Do My Work?*, she explains how part of our attention remains on a previous task after switching to another. For developers, every context switch means reorienting to a new task, and then reorienting again when returning to the original one.
 
