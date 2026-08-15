@@ -9,13 +9,13 @@ description: For decades, software documentation was written in isolated tools l
   <img src="/assets/rethinking-technical-documentation/cover.jpg" alt="Cover images" style="max-width: 100%; height: auto; border-radius: 8px;" />
 </figure>
 
-Attention is one of a developer’s most valuable resources. Focus drives progress, and every interruption comes at a cost.
+Attention is one of a developer’s most valuable resources. Focussed attention makes the gears spin, and every interruption comes at a cost.
 
 Researcher Sophie Leroy calls this cost **“attention residue.”** In her 2009 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0749597809000399), *Why Is It So Hard to Do My Work?*, she explains how part of our attention remains on a previous task after switching to another. For developers, every context switch means reorienting to a new task, and then reorienting again when returning to the original one.
 
 Documentation often creates exactly this problem.
 
-Traditionally, documentation has lived separately from code in tools such as Microsoft Word, Google Docs, or Confluence. This disconnect makes documentation easier to neglect and forces developers to leave their development environment to update it.
+Traditionally, documentation has lived separately from code in tools such as Microsoft Word, Google Docs, or Confluence. It was done before or after the construction, and in mnay cases not at all. This disconnect makes documentation easier to neglect and forces developers to leave their development environment to update it.
 
 What if we treat documentation like code?
 
@@ -34,9 +34,9 @@ There are trade-offs.
 
 Docs-as-code is not perfect. Markdown may feel less intuitive than a visual editor, and Git-based workflows can be a barrier for non-technical contributors.
 
-AI tools such as GitHub Copilot, Cursor, and ChatGPT are reducing that barrier. They can generate Markdown, improve formatting, and suggest clearer wording. Plain-text documentation is also easy to search, index, and analyze using IDEs and AI tools.
+AI tools such as GitHub Copilot, Cursor, and ChatGPT are reducing that barrier. They can generate Markdown, improve formatting, and suggest clearer wording. They are able to scan the code and synchronize it with the documentation, a task that would normally take a significant amount of effort from a human. Plain-text documentation is also easy to search, index, and analyze using IDEs and AI tools.
 
-Taking a hybrid approach often works best:
+Taking a hybrid approach often workss best:
 
 - Keep core technical documentation alongside the code.
 - Use traditional tools for supplementary or user-facing content when visual editing and broad collaboration matter more.
