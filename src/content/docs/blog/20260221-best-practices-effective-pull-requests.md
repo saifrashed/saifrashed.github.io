@@ -1,5 +1,5 @@
 ---
-title:  What Makes a Good Pull Request
+title:  Best Practices for Effective Pull Requests
 description: Yes
 ---
 

@@ -15,7 +15,7 @@ Researcher Sophie Leroy calls this cost **“attention residue.”** In her 2009
 
 Documentation often creates exactly this problem.
 
-Traditionally, documentation has lived separately from code in tools such as Microsoft Word, Google Docs, or Confluence. It was done before or after the construction, and in mnay cases not at all. This disconnect makes documentation easier to neglect and forces developers to leave their development environment to update it.
+Traditionally, documentation has lived separately from code in tools such as Microsoft Word, Google Docs, or Confluence. It was done before or after the construction, and in many cases not at all. This disconnect makes documentation easier to neglect and forces developers to leave their development environment to update it.
 
 What if we treat documentation like code?
 
@@ -36,7 +36,7 @@ Docs-as-code is not perfect. Markdown may feel less intuitive than a visual edit
 
 AI tools such as GitHub Copilot, Cursor, and ChatGPT are reducing that barrier. They can generate Markdown, improve formatting, and suggest clearer wording. They are able to scan the code and synchronize it with the documentation, a task that would normally take a significant amount of effort from a human. Plain-text documentation is also easy to search, index, and analyze using IDEs and AI tools.
 
-Taking a hybrid approach often workss best:
+Taking a hybrid approach often works best:
 
 - Keep core technical documentation alongside the code.
 - Use traditional tools for supplementary or user-facing content when visual editing and broad collaboration matter more.
