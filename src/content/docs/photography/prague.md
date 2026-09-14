@@ -1,14 +1,13 @@
 ---
-title: Spain
+title: Prague
 ---
 
-
 <div class="masonry-gallery">
-  <img src="/photography/spain/spain-1.png" alt="" loading="lazy" />
-  <img src="/photography/spain/spain-2.png" alt="" loading="lazy" />
-  <img src="/photography/spain/spain-3.png" alt="" loading="lazy" />
-  <img src="/photography/spain/spain-4.png" alt="" loading="lazy" />
-  <img src="/photography/spain/spain-5.png" alt="" loading="lazy" />
+  <img src="/photography/prague/1.jpeg" alt="" loading="lazy" />
+  <img src="/photography/prague/2.jpeg" alt="" loading="lazy" />
+  <img src="/photography/prague/3.jpeg" alt="" loading="lazy" />
+  <img src="/photography/prague/4.jpeg" alt="" loading="lazy" />
+  <img src="/photography/prague/5.jpeg" alt="" loading="lazy" />
 </div>
 
 <style>

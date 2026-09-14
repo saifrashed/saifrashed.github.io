@@ -1,13 +1,14 @@
 ---
-title: Czechoslovakia
+title: Barcelona
 ---
 
+
 <div class="masonry-gallery">
-  <img src="/photography/czechoslovakia/czechoslovakia-1.jpeg" alt="" loading="lazy" />
-  <img src="/photography/czechoslovakia/czechoslovakia-2.jpeg" alt="" loading="lazy" />
-  <img src="/photography/czechoslovakia/czechoslovakia-3.jpeg" alt="" loading="lazy" />
-  <img src="/photography/czechoslovakia/czechoslovakia-4.jpeg" alt="" loading="lazy" />
-  <img src="/photography/czechoslovakia/czechoslovakia-5.jpeg" alt="" loading="lazy" />
+  <img src="/photography/barcelona/1.png" alt="" loading="lazy" />
+  <img src="/photography/barcelona/2.png" alt="" loading="lazy" />
+  <img src="/photography/barcelona/3.png" alt="" loading="lazy" />
+  <img src="/photography/barcelona/4.png" alt="" loading="lazy" />
+  <img src="/photography/barcelona/5.png" alt="" loading="lazy" />
 </div>
 
 <style>
