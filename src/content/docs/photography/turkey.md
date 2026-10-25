@@ -1,13 +1,13 @@
 ---
-title: Prague
+title: Turkey
 ---
 
 <div class="masonry-gallery">
-  <img src="/photography/prague/1.jpeg" alt="" loading="lazy" />
-  <img src="/photography/prague/2.jpeg" alt="" loading="lazy" />
-  <img src="/photography/prague/3.jpeg" alt="" loading="lazy" />
-  <img src="/photography/prague/4.jpeg" alt="" loading="lazy" />
-  <img src="/photography/prague/5.jpeg" alt="" loading="lazy" />
+  <img src="/photography/turkey/istanbul/1.jpeg" alt="" loading="lazy" />
+  <img src="/photography/turkey/istanbul/2.jpeg" alt="" loading="lazy" />
+  <!-- <img src="/photography/turkey/istanbul/3.jpeg" alt="" loading="lazy" /> -->
+  <img src="/photography/turkey/istanbul/4.jpeg" alt="" loading="lazy" />
+  <img src="/photography/turkey/istanbul/5.jpeg" alt="" loading="lazy" />
 </div>
 
 <style>

@@ -1,0 +1,57 @@
+
+# Open-source for IT soverignty
+
+
+# Events have shown the weaponization of technology
+
+# The prosecutor of the International Criminal Court (ICC) has been sanctioned by the US government, which has raised concerns about the independence and impartiality of the ICC. The ICC has strongly rejected these sanctions, stating that they are an attack on the rule of law and the independence of the judiciary.
+
+# In any case, it has shown that the US government has the power to sanction individuals and organizations, which can have a significant impact on their ability to operate and access resources.
+
+# The european union has made moves towards digital sovereignty
+
+# The difficulty lies in underlying infrastructure and software
+
+# Git has proven to be a powerful tool for collaboration and transparency
+
+# it acts as a database of knowledge with a history of changes and contributions
+
+# it is not made for binary files, but for text files, which makes it ideal for software development
+
+# But does it have the potential to be used for other types of knowledge management?
+
+# It enables flexibility and portability because the underlying technologies are open-source and widely adopted
+
+# By cloning a repository, you can have a local copy of the entire history of the project, which allows for offline access and the ability to work on the project without relying on a central server
+
+# formats like markdown represent docs, and csv spreadsheets, only diagrams and images are not well suited for git, but they can be stored in a git repository as well if a open format is used like venn diagrams in json. 
+
+# Slides can be stored in a git repository as well if a open format is used like reveal.js or remark.js. Even this requires some work to be done to make it more user friendly, but it is possible.
+
+# The dutch government is developing a sovereign operating system based on Linux, which is a good example of how institutions are moving towards open-source solutions for IT sovereignty.
+
+# Large question marks remain in hosting and azure pipelines, after all the soveirgnty issue depends on our capacity to leave when we want, and not be dependent on a single provider.
+
+# We might not be able to have every non-technical use git, but maybe we can make tools that abstract the complexity of git and make it more user friendly for non-technical users, while still leveraging the benefits of open-source and collaboration.
+
+# So the concept of saving a file, is a matter of pulling and pushing changes to a repository, which is a different paradigm than the traditional file system, but it can be made more user friendly with the right tools and interfaces.
+
+# Or sharing a file is a matter of sharing a link to a specific commit or branch in a repository, which allows for more granular control over access and versioning.
+
+# Questions like real-time collaboration differ in this paradigm, but is worth exploring.
+
+# One massive dependency is our pipelines, which are often hosted on proprietary platforms like Azure DevOps. This creates a dependency on these platforms, which can be a risk for IT sovereignty. Exploring self-hosted CI/CD solutions or open-source alternatives could mitigate this risk.
+
+# To contribute I developed a suite of apps that make use of this underlying concept. Git as the source, but with a user-friendly interface that abstracts the complexity of git and makes it more accessible to non-technical users. 
+
+
+https://digital-commons-edic.eu/
+
+https://www.icc-cpi.int/news/icc-strongly-rejects-new-us-sanctions-against-judges-and-deputy-prosecutors
+https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html
+
+https://www.bankingsupervision.europa.eu/framework/priorities/html/ssm.supervisory_priorities202511.en.html
+https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/netherlands-developing-sovereign-operating-system
+
+https://www.rapporteur.com/news/international-criminal-court-to-ditch-microsoft-office-for-european-open-source-alternative/
+

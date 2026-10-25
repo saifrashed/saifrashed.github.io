@@ -1,14 +1,13 @@
 ---
-title: Barcelona
+title: Czech Republic
 ---
 
-
 <div class="masonry-gallery">
-  <img src="/photography/barcelona/1.png" alt="" loading="lazy" />
-  <img src="/photography/barcelona/2.png" alt="" loading="lazy" />
-  <img src="/photography/barcelona/3.png" alt="" loading="lazy" />
-  <img src="/photography/barcelona/4.png" alt="" loading="lazy" />
-  <img src="/photography/barcelona/5.png" alt="" loading="lazy" />
+  <img src="/photography/czechia/prague/1.jpeg" alt="" loading="lazy" />
+  <img src="/photography/czechia/prague/2.jpeg" alt="" loading="lazy" />
+  <img src="/photography/czechia/prague/3.jpeg" alt="" loading="lazy" />
+  <img src="/photography/czechia/prague/4.jpeg" alt="" loading="lazy" />
+  <img src="/photography/czechia/prague/5.jpeg" alt="" loading="lazy" />
 </div>
 
 <style>
